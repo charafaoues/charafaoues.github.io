@@ -9,6 +9,8 @@ const navItems = [
   { label: "Services", href: "/services" },
 ];
 
+const mobileNavItems = [...navItems, { label: "About Me", href: "/about" }];
+
 export function NavbarDemo() {
   const { scrollY } = useScroll();
   const [compact, setCompact] = useState(false);
@@ -113,7 +115,7 @@ export function NavbarDemo() {
             className="mt-2 rounded-2xl border border-white/10 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl"
           >
             <div className="flex flex-col gap-2">
-              {navItems.map((item) => (
+              {mobileNavItems.map((item) => (
                 <Link
                   key={item.label}
                   href={item.href}
