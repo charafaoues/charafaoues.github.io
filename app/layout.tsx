@@ -4,7 +4,8 @@ import { Inter } from "next/font/google";
 import Footer from "@/component/Footer";
 export const metadata: Metadata = {
   title: "Aoues charaf eddine",
-  description: "proffessional portfolio of aoues charaf eddine",
+  description:
+    "Portfolio of Aoues Charaf, a web developer specializing in modern web applications, React, Next.js, and software development.",
 };
 
 const inter = Inter({
