@@ -16,6 +16,10 @@ const inter = Inter({
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="ns_S_tFs1rUotx6Gp-FsRTM7YKmo34I0eSoQDNjcrpo"
+      />
       <body cz-shortcut-listen="true" className={inter.variable}>
         {children}
         <Footer />
